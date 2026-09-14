@@ -1,0 +1,121 @@
+@import "tailwindcss";
+
+:root {
+  --cream: #f6f1e8;
+  --ink: #111111;
+  --electric: #2f6fff;
+  --acid: #c8ff3e;
+  --pink: #ff3e8e;
+  --orange: #ff6a1a;
+  --cobalt: #142ca6;
+  --red: #e62425;
+  --purple: #8a3ffc;
+  --yellow: #ffd400;
+}
+
+@theme inline {
+  --color-cream: var(--cream);
+  --color-ink: var(--ink);
+  --color-electric: var(--electric);
+  --color-acid: var(--acid);
+  --color-pink: var(--pink);
+  --color-orange: var(--orange);
+  --color-cobalt: var(--cobalt);
+  --color-red: var(--red);
+  --color-purple: var(--purple);
+  --color-yellow: var(--yellow);
+
+  --font-display: var(--font-anton), Impact, sans-serif;
+  --font-sans: var(--font-space-grotesk), ui-sans-serif, system-ui, sans-serif;
+
+  --animate-digit-in: digit-in 360ms cubic-bezier(0.16, 1, 0.3, 1);
+  --animate-rise: rise 700ms cubic-bezier(0.16, 1, 0.3, 1) both;
+  --animate-drift: drift 9s ease-in-out infinite;
+  --animate-drift-slow: drift 13s ease-in-out infinite;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: light;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--color-cream);
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+/* Film-grain overlay: a tiled SVG turbulence texture, kept extremely subtle. */
+.grain-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  pointer-events: none;
+  opacity: 0.05;
+  mix-blend-mode: multiply;
+  background-image: url("/textures/grain.svg");
+  background-size: 220px 220px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@keyframes digit-in {
+  from {
+    transform: translateY(0.5em);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes rise {
+  from {
+    transform: translateY(14px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes drift {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.text-outline {
+  -webkit-text-stroke: 2px var(--color-ink);
+  color: transparent;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}

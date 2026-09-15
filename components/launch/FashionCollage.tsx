@@ -23,7 +23,7 @@ interface CollageSlot {
 const SLOTS: CollageSlot[] = [
   // Hero (large, 3)
   {
-    src: "/images/fashion-01.jpg",
+    src: "/images/fashion-001.jpg",
     alt: "Full outfit look — complete head-to-toe styling",
     variant: "hero",
     caption: "01 / FULL LOOK",
@@ -39,7 +39,7 @@ const SLOTS: CollageSlot[] = [
     className: "left-[38%] top-[15%] h-[42vh] w-[15vw] rotate-1",
   },
   {
-    src: "/images/fashion-07.jpg",
+    src: "/images/fashion-07.jpeg",
     alt: "Masculine streetwear look, oversized silhouette",
     variant: "hero",
     frame: "torn",
@@ -56,7 +56,7 @@ const SLOTS: CollageSlot[] = [
     className: "left-[19%] top-[3%] h-[14vh] w-[15vw] rotate-2",
   },
   {
-    src: "/images/fashion-05.jpg",
+    src: "/images/fashion-005.jpg",
     alt: "Group photograph, contrasting styles",
     variant: "landscape",
     motion: "drift-slow",
@@ -75,14 +75,14 @@ const SLOTS: CollageSlot[] = [
     className: "right-[1%] bottom-[2%] h-[20vh] w-[11vw] -rotate-2",
   },
   {
-    src: "/images/fashion-0.jpeg",
+    src: "/images/fashion-0.jpg",
     alt: "Androgynous, gender-neutral fashion styling",
     variant: "portrait",
     frame: "rounded",
     className: "right-[15%] bottom-[3%] h-[21vh] w-[11vw] rotate-2",
   },
   {
-    src: "/images/fashion-12.jpg",
+    src: "/images/fashion-012.jpg",
     alt: "Experimental, visually unusual fashion frame",
     variant: "landscape",
     frame: "torn",
@@ -93,7 +93,7 @@ const SLOTS: CollageSlot[] = [
   // Detail (small, 3)
   
   {
-    src: "/images/fashion-03.jpg",
+    src: "/images/fashion-03.jpeg",
     alt: "Denim texture detail",
     variant: "detail",
     frame: "circle",
@@ -106,7 +106,7 @@ const SLOTS: CollageSlot[] = [
     className: "left-[45%] bottom-[13%] h-[6vw] w-[6vw] -rotate-2",
   },
   {
-    src: "/images/fashion-11.jpg",
+    src: "/images/fashion-11.jpeg",
     alt: "Garment stitching and graphic detail",
     variant: "detail",
     frame: "rounded",

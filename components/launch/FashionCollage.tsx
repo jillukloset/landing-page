@@ -31,7 +31,7 @@ const SLOTS: CollageSlot[] = [
     className: "left-[2%] top-[11%] h-[38vh] w-[15vw] -rotate-2",
   },
   {
-    src: "/images/fashion-04.jpg",
+    src: "/images/fashion-04.jpeg",
     alt: "Fashion portrait, strong expressive styling",
     variant: "hero",
     caption: "04 / PORTRAIT",
@@ -49,7 +49,7 @@ const SLOTS: CollageSlot[] = [
 
   // Supporting (medium, 6)
   {
-    src: "/images/fashion-02.jpg",
+    src: "/images/fashion-02.jpeg",
     alt: "Candid street style photograph",
     variant: "landscape",
     motion: "drift",
@@ -63,19 +63,19 @@ const SLOTS: CollageSlot[] = [
     className: "right-[19%] bottom-[9%] h-[15vh] w-[16vw] -rotate-2",
   },
   {
-    src: "/images/fashion-06.jpg",
+    src: "/images/fashion-06.jpeg",
     alt: "Vintage thrift-inspired styling",
     variant: "portrait",
     className: "left-0 top-[51%] h-[16vh] w-[11vw] rotate-3",
   },
   {
-    src: "/images/fashion-08.jpg",
+    src: "/images/fashion-09.jpeg",
     alt: "Contemporary feminine fashion styling",
     variant: "portrait",
     className: "right-[1%] bottom-[2%] h-[20vh] w-[11vw] -rotate-2",
   },
   {
-    src: "/images/fashion-09.jpg",
+    src: "/images/fashion-0.jpeg",
     alt: "Androgynous, gender-neutral fashion styling",
     variant: "portrait",
     frame: "rounded",
@@ -91,6 +91,7 @@ const SLOTS: CollageSlot[] = [
   },
 
   // Detail (small, 3)
+  
   {
     src: "/images/fashion-03.jpg",
     alt: "Denim texture detail",
@@ -99,7 +100,7 @@ const SLOTS: CollageSlot[] = [
     className: "left-[35%] top-[69%] h-[6vw] w-[6vw]",
   },
   {
-    src: "/images/fashion-10.jpg",
+    src: "/images/fashion-10.jpeg",
     alt: "Accessory detail — bag and jewellery",
     variant: "detail",
     className: "left-[45%] bottom-[13%] h-[6vw] w-[6vw] -rotate-2",

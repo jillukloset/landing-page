@@ -35,7 +35,7 @@ export default function LaunchExperience() {
           </div>
           <div className="flex flex-col items-end gap-1.5">
             <a
-              href="https://instagram.com/jillukloset"
+              href="https://www.instagram.com/jillukloset?stkn=emt4aHI5Y2tndWVs"
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center gap-1.5 font-sans text-xs font-bold uppercase tracking-[0.2em] text-ink transition-colors hover:text-electric focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-ink sm:text-sm"
